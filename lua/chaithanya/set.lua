@@ -37,3 +37,6 @@ vim.cmd.colorscheme "catppuccin"
 vim.cmd('hi LineNr guifg=#858585')
 vim.cmd('hi CursorLineNr guifg=#ffffff')
 
+vim.opt.spell = true
+
+
