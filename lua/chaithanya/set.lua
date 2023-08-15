@@ -29,8 +29,11 @@ vim.opt.isfname:append("@-@")
 
 vim.opt.updatetime = 50
 vim.o.breakindent = true
+vim.opt.cursorline = true
 
 vim.opt.colorcolumn = "80"
 vim.o.mouse = 'a'
--- vim.cmd("colorscheme gruvbox")
 vim.cmd.colorscheme "catppuccin"
+vim.cmd('hi LineNr guifg=#858585')
+vim.cmd('hi CursorLineNr guifg=#ffffff')
+
