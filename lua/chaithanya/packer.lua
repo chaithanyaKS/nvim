@@ -16,7 +16,7 @@ return require('packer').startup(function(use)
         -- or                            , branch = '0.1.x',
         requires = { { 'nvim-lua/plenary.nvim' } }
     }
-    use {"xiyaowong/transparent.nvim", tag="*"}
+    use { "xiyaowong/transparent.nvim", tag = "*" }
 
     use { "ellisonleao/gruvbox.nvim" }
     use { "catppuccin/nvim", as = "catppuccin" }
@@ -76,6 +76,9 @@ return require('packer').startup(function(use)
     use {
         "windwp/nvim-autopairs",
         -- config = function() require("nvim-autopairs").setup {} end
+    }
+    use {
+        'HallerPatrick/py_lsp.nvim',
     }
 
     use { "akinsho/toggleterm.nvim", tag = '*' }
