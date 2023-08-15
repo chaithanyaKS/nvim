@@ -16,6 +16,7 @@ return require('packer').startup(function(use)
         -- or                            , branch = '0.1.x',
         requires = { { 'nvim-lua/plenary.nvim' } }
     }
+    use {"xiyaowong/transparent.nvim", tag="*"}
 
     use { "ellisonleao/gruvbox.nvim" }
     use({
@@ -80,7 +81,6 @@ return require('packer').startup(function(use)
     use("folke/zen-mode.nvim")
     use("laytan/cloak.nvim")
 
-    use("akinsho/toggleterm.nvim")
     use("terrortylor/nvim-comment")
     use("CreaturePhil/vim-handmade-hero")
 end)
