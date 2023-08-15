@@ -32,4 +32,5 @@ vim.o.breakindent = true
 
 vim.opt.colorcolumn = "80"
 vim.o.mouse = 'a'
-vim.cmd("colorscheme gruvbox")
+-- vim.cmd("colorscheme gruvbox")
+vim.cmd.colorscheme "catppuccin"

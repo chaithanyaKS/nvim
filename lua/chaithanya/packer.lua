@@ -18,6 +18,7 @@ return require('packer').startup(function(use)
     }
 
     use { "ellisonleao/gruvbox.nvim" }
+    use { "catppuccin/nvim", as = "catppuccin" }
     use({
         "folke/trouble.nvim",
         config = function()
@@ -76,11 +77,10 @@ return require('packer').startup(function(use)
         -- config = function() require("nvim-autopairs").setup {} end
     }
 
-    use { "akinsho/toggleterm.nvim", tag = '*'}
+    use { "akinsho/toggleterm.nvim", tag = '*' }
     use("folke/zen-mode.nvim")
     use("laytan/cloak.nvim")
 
-    use("akinsho/toggleterm.nvim")
     use("terrortylor/nvim-comment")
     use("CreaturePhil/vim-handmade-hero")
 end)
