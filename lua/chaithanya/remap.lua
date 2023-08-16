@@ -55,3 +55,10 @@ end)
 vim.keymap.set("n", "|", ":vsplit<CR><C-w>l", { noremap = true })
 vim.keymap.set("n", "<leader>h", ":wincmd h<CR>", { noremap = true })
 vim.keymap.set("n", "<leader>l", ":wincmd l<CR>", { noremap = true })
+
+vim.keymap.set("n", "<A-h>", ":vertical resize +20<cr>")
+vim.keymap.set("n", "<A-l>", ":vertical resize -20<cr>")
+vim.keymap.set("n", "<A-j>", ":resize -5<cr>")
+vim.keymap.set("n", "<A-k>", ":resize +5<cr>")
+
+
